@@ -123,3 +123,17 @@ WHERE EXISTS (
     HAVING COUNT(DISTINCT t2.region) > 3
 )
 ORDER BY t1.product_category;
+
+-- Uloha 12 - Regiony s predajom v roku 2024
+SELECT
+    t1.region,
+    t1.sale_date,
+    t1.product_name,
+    t1.total_amount
+FROM flourmills_sales t1
+WHERE EXISTS (
+    SELECT 1
+    FROM flourmills_sales t2
+    WHERE t2.region = t1.region
+      AND EXTRACT(YEAR FROM t2.sale_date) = 2024
+);
