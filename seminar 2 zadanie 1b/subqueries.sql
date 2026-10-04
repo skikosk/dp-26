@@ -39,3 +39,14 @@ SELECT
         FROM flourmills_sales
     ) AS amount_share
 FROM flourmills_sales;
+
+-- Uloha 5 - Mesacny prehlad predaja
+SELECT *
+FROM (
+    SELECT
+        EXTRACT(MONTH FROM sale_date) AS month,
+        SUM(total_amount) AS monthly_sales
+    FROM flourmills_sales
+    GROUP BY EXTRACT(MONTH FROM sale_date)
+) AS monthly_view
+ORDER BY monthly_sales DESC;
