@@ -86,3 +86,16 @@ SELECT
         WHERE t2.region = t1.region
     ) AS region_min_amount
 FROM flourmills_sales t1;
+
+-- Uloha 9 - Produkty predavane vo viacerych mesiacoch
+SELECT
+    t1.product_name,
+    t1.sale_date,
+    t1.total_amount
+FROM flourmills_sales t1
+WHERE EXISTS (
+    SELECT 1
+    FROM flourmills_sales t2
+    WHERE t2.product_name = t1.product_name
+    HAVING COUNT(DISTINCT EXTRACT(MONTH FROM t2.sale_date)) > 1
+);
