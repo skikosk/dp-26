@@ -50,3 +50,15 @@ FROM (
     GROUP BY EXTRACT(MONTH FROM sale_date)
 ) AS monthly_view
 ORDER BY monthly_sales DESC;
+
+-- Uloha 6 - Kategorie s vysokym celkovym predajom
+SELECT *
+FROM (
+    SELECT
+        product_category,
+        SUM(total_amount) AS total_sales
+    FROM flourmills_sales
+    GROUP BY product_category
+) AS category_sales
+WHERE total_sales > 50000000
+ORDER BY total_sales DESC;
