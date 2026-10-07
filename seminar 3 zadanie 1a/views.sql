@@ -28,3 +28,22 @@ SELECT *
 FROM regional_monthly_sales
 WHERE region = 'West'
 ORDER BY month;
+
+-- Uloha 3 - Pohlad pre analytikov (bez stlpca profit)
+CREATE OR REPLACE VIEW analyst_orders AS
+SELECT
+    order_id,
+    customer_id,
+    product_id,
+    sales,
+    quantity,
+    discount
+FROM orders;
+
+SELECT *
+FROM analyst_orders;
+
+-- Aby analytik nevidel profit ani v zdrojovej tabulke, musi mat pristup iba cez view
+-- (predpoklada existujucu rolu analyst):
+-- REVOKE SELECT ON orders FROM analyst;
+-- GRANT SELECT ON analyst_orders TO analyst;
