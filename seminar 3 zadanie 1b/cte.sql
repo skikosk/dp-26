@@ -124,3 +124,50 @@ calendar AS (
 SELECT calendar_date
 FROM calendar
 ORDER BY calendar_date;
+
+-- Uloha 7 - Dosiahnutie hranice 500 milionov kumulativneho predaja
+WITH RECURSIVE monthly_revenue AS (
+    SELECT
+        DATE_TRUNC('month', sale_date)::DATE AS month,
+        SUM(total_amount) AS revenue
+    FROM flourmills_sales
+    GROUP BY DATE_TRUNC('month', sale_date)
+),
+ordered_months AS (
+    SELECT
+        ROW_NUMBER() OVER (ORDER BY month) AS rn,
+        month,
+        revenue
+    FROM monthly_revenue
+),
+cumulative_target AS (
+    -- anchor query: prvy mesiac
+    SELECT
+        rn,
+        month,
+        revenue,
+        revenue AS cumulative_revenue
+    FROM ordered_months
+    WHERE rn = 1
+
+    UNION ALL
+
+    -- recursive query: pripocita dalsi mesiac, kym sa nedosiahne hranica
+    SELECT
+        om.rn,
+        om.month,
+        om.revenue,
+        ct.cumulative_revenue + om.revenue
+    FROM cumulative_target ct
+    JOIN ordered_months om ON om.rn = ct.rn + 1
+    WHERE ct.cumulative_revenue < 500000000
+)
+SELECT
+    rn,
+    month,
+    revenue,
+    cumulative_revenue
+FROM cumulative_target
+WHERE cumulative_revenue >= 500000000
+ORDER BY rn
+LIMIT 1;
