@@ -1,0 +1,278 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1130" viewBox="0 0 1500 1130">
+<style>
+text { font-family: Consolas, "Courier New", monospace; font-size: 12px; fill: #1f2937; }
+.tname { font-size: 14px; font-weight: bold; fill: #ffffff; }
+.key { font-size: 10px; font-weight: bold; fill: #b45309; }
+.pk { font-weight: bold; text-decoration: underline; }
+.typ { fill: #6b7280; }
+.title { font-family: "Segoe UI", Arial, sans-serif; font-size: 22px; font-weight: bold; }
+.sub { font-family: "Segoe UI", Arial, sans-serif; font-size: 13px; fill: #4b5563; }
+.leg { font-family: "Segoe UI", Arial, sans-serif; font-size: 12px; }
+.rel { stroke: #64748b; stroke-width: 1.4; fill: none; }
+</style>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="20" y="34" class="title">Northwind – dátový sklad (schéma snehovej vločky)</text>
+<text x="20" y="56" class="sub">Grain fact_sales: jeden riadok = jedna položka objednávky (OrderDetails)</text>
+<line x1="733.4" y1="380.0" x2="730.2" y2="292.0" class="rel"/>
+<line x1="732.9" y1="366.0" x2="725.4" y2="380.3" class="rel"/>
+<line x1="732.9" y1="366.0" x2="733.4" y2="380.0" class="rel"/>
+<line x1="732.9" y1="366.0" x2="741.4" y2="379.7" class="rel"/>
+<line x1="737.5" y1="299.7" x2="723.5" y2="300.2" class="rel"/>
+<line x1="737.7" y1="304.7" x2="723.7" y2="305.2" class="rel"/>
+<line x1="600.0" y1="423.9" x2="396.8" y2="311.1" class="rel"/>
+<line x1="587.8" y1="417.1" x2="596.1" y2="430.9" class="rel"/>
+<line x1="587.8" y1="417.1" x2="600.0" y2="423.9" class="rel"/>
+<line x1="587.8" y1="417.1" x2="603.9" y2="417.0" class="rel"/>
+<line x1="407.2" y1="308.8" x2="400.4" y2="321.1" class="rel"/>
+<line x1="411.6" y1="311.2" x2="404.8" y2="323.5" class="rel"/>
+<line x1="748.7" y1="621.0" x2="759.5" y2="740.0" class="rel"/>
+<line x1="750.0" y1="634.9" x2="756.7" y2="620.3" class="rel"/>
+<line x1="750.0" y1="634.9" x2="748.7" y2="621.0" class="rel"/>
+<line x1="750.0" y1="634.9" x2="740.8" y2="621.7" class="rel"/>
+<line x1="751.8" y1="732.7" x2="765.8" y2="731.4" class="rel"/>
+<line x1="751.4" y1="727.7" x2="765.3" y2="726.4" class="rel"/>
+<line x1="875.6" y1="408.8" x2="1090.1" y2="266.0" class="rel"/>
+<line x1="887.3" y1="401.0" x2="871.2" y2="402.1" class="rel"/>
+<line x1="887.3" y1="401.0" x2="875.6" y2="408.8" class="rel"/>
+<line x1="887.3" y1="401.0" x2="880.0" y2="415.4" class="rel"/>
+<line x1="1087.3" y1="276.3" x2="1079.6" y2="264.6" class="rel"/>
+<line x1="1083.2" y1="279.0" x2="1075.4" y2="267.4" class="rel"/>
+<line x1="875.6" y1="495.6" x2="1080.0" y2="488.3" class="rel"/>
+<line x1="889.6" y1="495.1" x2="875.3" y2="487.6" class="rel"/>
+<line x1="889.6" y1="495.1" x2="875.6" y2="495.6" class="rel"/>
+<line x1="889.6" y1="495.1" x2="875.9" y2="503.6" class="rel"/>
+<line x1="1072.3" y1="495.6" x2="1071.8" y2="481.6" class="rel"/>
+<line x1="1067.3" y1="495.7" x2="1066.8" y2="481.7" class="rel"/>
+<line x1="894.0" y1="828.7" x2="1080.0" y2="837.8" class="rel"/>
+<line x1="908.0" y1="829.4" x2="894.4" y2="820.7" class="rel"/>
+<line x1="908.0" y1="829.4" x2="894.0" y2="828.7" class="rel"/>
+<line x1="908.0" y1="829.4" x2="893.6" y2="836.7" class="rel"/>
+<line x1="1071.7" y1="844.4" x2="1072.4" y2="830.4" class="rel"/>
+<line x1="1066.7" y1="844.2" x2="1067.4" y2="830.2" class="rel"/>
+<line x1="640.0" y1="870.9" x2="576.8" y2="895.0" class="rel"/>
+<line x1="626.9" y1="875.9" x2="642.8" y2="878.4" class="rel"/>
+<line x1="626.9" y1="875.9" x2="640.0" y2="870.9" class="rel"/>
+<line x1="626.9" y1="875.9" x2="637.2" y2="863.4" class="rel"/>
+<line x1="581.8" y1="885.6" x2="586.8" y2="898.7" class="rel"/>
+<line x1="586.5" y1="883.8" x2="591.4" y2="896.9" class="rel"/>
+<line x1="241.4" y1="325.0" x2="173.5" y2="500.0" class="rel"/>
+<line x1="236.3" y1="338.1" x2="248.8" y2="327.9" class="rel"/>
+<line x1="236.3" y1="338.1" x2="241.4" y2="325.0" class="rel"/>
+<line x1="236.3" y1="338.1" x2="233.9" y2="322.1" class="rel"/>
+<line x1="169.8" y1="490.0" x2="182.9" y2="495.1" class="rel"/>
+<line x1="171.6" y1="485.3" x2="184.7" y2="490.4" class="rel"/>
+<line x1="384.6" y1="850.0" x2="189.5" y2="589.0" class="rel"/>
+<line x1="376.2" y1="838.8" x2="378.2" y2="854.8" class="rel"/>
+<line x1="376.2" y1="838.8" x2="384.6" y2="850.0" class="rel"/>
+<line x1="376.2" y1="838.8" x2="391.0" y2="845.2" class="rel"/>
+<line x1="199.9" y1="591.2" x2="188.7" y2="599.6" class="rel"/>
+<line x1="202.9" y1="595.2" x2="191.6" y2="603.6" class="rel"/>
+<line x1="156.5" y1="589.0" x2="159.5" y2="990.0" class="rel"/>
+<line x1="156.6" y1="603.0" x2="164.5" y2="588.9" class="rel"/>
+<line x1="156.6" y1="603.0" x2="156.5" y2="589.0" class="rel"/>
+<line x1="156.6" y1="603.0" x2="148.5" y2="589.1" class="rel"/>
+<line x1="152.5" y1="982.1" x2="166.5" y2="981.9" class="rel"/>
+<line x1="152.4" y1="977.1" x2="166.4" y2="976.9" class="rel"/>
+<g>
+<rect x="600" y="380" width="275.6" height="241" rx="6" fill="#fff7ed" stroke="#b45309" stroke-width="1.5"/>
+<path d="M600,386 a6,6 0 0 1 6,-6 h263.6 a6,6 0 0 1 6,6 v20 h-275.6 z" fill="#b45309"/>
+<text x="610" y="398" class="tname">fact_sales</text>
+<text x="610" y="420" class="key">PK</text>
+<text x="650" y="420" class="col pk">sales_key</text>
+<text x="772.0" y="420" class="typ">BIGINT</text>
+<text x="650" y="439" class="col">order_detail_id</text>
+<text x="772.0" y="439" class="typ">INT</text>
+<text x="650" y="458" class="col">order_id</text>
+<text x="772.0" y="458" class="typ">INT</text>
+<text x="610" y="477" class="key">FK</text>
+<text x="650" y="477" class="col">date_key</text>
+<text x="772.0" y="477" class="typ">INT</text>
+<text x="610" y="496" class="key">FK</text>
+<text x="650" y="496" class="col">customer_key</text>
+<text x="772.0" y="496" class="typ">INT</text>
+<text x="610" y="515" class="key">FK</text>
+<text x="650" y="515" class="col">product_key</text>
+<text x="772.0" y="515" class="typ">INT</text>
+<text x="610" y="534" class="key">FK</text>
+<text x="650" y="534" class="col">employee_key</text>
+<text x="772.0" y="534" class="typ">INT</text>
+<text x="610" y="553" class="key">FK</text>
+<text x="650" y="553" class="col">shipper_key</text>
+<text x="772.0" y="553" class="typ">INT</text>
+<text x="650" y="572" class="col">quantity</text>
+<text x="772.0" y="572" class="typ">INT</text>
+<text x="650" y="591" class="col">unit_price</text>
+<text x="772.0" y="591" class="typ">NUMERIC(10,2)</text>
+<text x="650" y="610" class="col">sales_amount</text>
+<text x="772.0" y="610" class="typ">NUMERIC(12,2)</text>
+</g>
+<g>
+<rect x="610" y="70" width="232.4" height="222" rx="6" fill="#f0fdf4" stroke="#15803d" stroke-width="1.5"/>
+<path d="M610,76 a6,6 0 0 1 6,-6 h220.4 a6,6 0 0 1 6,6 v20 h-232.4 z" fill="#15803d"/>
+<text x="620" y="88" class="tname">dim_date</text>
+<text x="620" y="110" class="key">PK</text>
+<text x="660" y="110" class="col pk">date_key</text>
+<text x="753.2" y="110" class="typ">INT</text>
+<text x="660" y="129" class="col">full_date</text>
+<text x="753.2" y="129" class="typ">DATE</text>
+<text x="660" y="148" class="col">day</text>
+<text x="753.2" y="148" class="typ">SMALLINT</text>
+<text x="660" y="167" class="col">month</text>
+<text x="753.2" y="167" class="typ">SMALLINT</text>
+<text x="660" y="186" class="col">month_name</text>
+<text x="753.2" y="186" class="typ">VARCHAR(15)</text>
+<text x="660" y="205" class="col">quarter</text>
+<text x="753.2" y="205" class="typ">SMALLINT</text>
+<text x="660" y="224" class="col">year</text>
+<text x="753.2" y="224" class="typ">SMALLINT</text>
+<text x="660" y="243" class="col">day_of_week</text>
+<text x="753.2" y="243" class="typ">SMALLINT</text>
+<text x="660" y="262" class="col">day_name</text>
+<text x="753.2" y="262" class="typ">VARCHAR(15)</text>
+<text x="660" y="281" class="col">is_weekend</text>
+<text x="753.2" y="281" class="typ">BOOLEAN</text>
+</g>
+<g>
+<rect x="1080" y="120" width="239.6" height="146" rx="6" fill="#eff6ff" stroke="#1d4ed8" stroke-width="1.5"/>
+<path d="M1080,126 a6,6 0 0 1 6,-6 h227.6 a6,6 0 0 1 6,6 v20 h-239.6 z" fill="#1d4ed8"/>
+<text x="1090" y="138" class="tname">dim_employee</text>
+<text x="1090" y="160" class="key">PK</text>
+<text x="1130" y="160" class="col pk">employee_key</text>
+<text x="1230.4" y="160" class="typ">INT</text>
+<text x="1130" y="179" class="col">employee_id</text>
+<text x="1230.4" y="179" class="typ">INT</text>
+<text x="1130" y="198" class="col">first_name</text>
+<text x="1230.4" y="198" class="typ">VARCHAR(15)</text>
+<text x="1130" y="217" class="col">last_name</text>
+<text x="1230.4" y="217" class="typ">VARCHAR(15)</text>
+<text x="1130" y="236" class="col">full_name</text>
+<text x="1230.4" y="236" class="typ">VARCHAR(31)</text>
+<text x="1130" y="255" class="col">birth_date</text>
+<text x="1230.4" y="255" class="typ">DATE</text>
+</g>
+<g>
+<rect x="1080" y="430" width="239.6" height="108" rx="6" fill="#eff6ff" stroke="#1d4ed8" stroke-width="1.5"/>
+<path d="M1080,436 a6,6 0 0 1 6,-6 h227.6 a6,6 0 0 1 6,6 v20 h-239.6 z" fill="#1d4ed8"/>
+<text x="1090" y="448" class="tname">dim_shipper</text>
+<text x="1090" y="470" class="key">PK</text>
+<text x="1130" y="470" class="col pk">shipper_key</text>
+<text x="1230.4" y="470" class="typ">INT</text>
+<text x="1130" y="489" class="col">shipper_id</text>
+<text x="1230.4" y="489" class="typ">INT</text>
+<text x="1130" y="508" class="col">shipper_name</text>
+<text x="1230.4" y="508" class="typ">VARCHAR(25)</text>
+<text x="1130" y="527" class="col">phone</text>
+<text x="1230.4" y="527" class="typ">VARCHAR(15)</text>
+</g>
+<g>
+<rect x="150" y="160" width="246.8" height="165" rx="6" fill="#eff6ff" stroke="#1d4ed8" stroke-width="1.5"/>
+<path d="M150,166 a6,6 0 0 1 6,-6 h234.8 a6,6 0 0 1 6,6 v20 h-246.8 z" fill="#1d4ed8"/>
+<text x="160" y="178" class="tname">dim_customer</text>
+<text x="160" y="200" class="key">PK</text>
+<text x="200" y="200" class="col pk">customer_key</text>
+<text x="307.6" y="200" class="typ">INT</text>
+<text x="200" y="219" class="col">customer_id</text>
+<text x="307.6" y="219" class="typ">INT</text>
+<text x="200" y="238" class="col">customer_name</text>
+<text x="307.6" y="238" class="typ">VARCHAR(50)</text>
+<text x="200" y="257" class="col">contact_name</text>
+<text x="307.6" y="257" class="typ">VARCHAR(50)</text>
+<text x="200" y="276" class="col">address</text>
+<text x="307.6" y="276" class="typ">VARCHAR(50)</text>
+<text x="200" y="295" class="col">postal_code</text>
+<text x="307.6" y="295" class="typ">VARCHAR(10)</text>
+<text x="160" y="314" class="key">FK</text>
+<text x="200" y="314" class="col">city_key</text>
+<text x="307.6" y="314" class="typ">INT</text>
+</g>
+<g>
+<rect x="640" y="740" width="254.0" height="165" rx="6" fill="#eff6ff" stroke="#1d4ed8" stroke-width="1.5"/>
+<path d="M640,746 a6,6 0 0 1 6,-6 h242.0 a6,6 0 0 1 6,6 v20 h-254.0 z" fill="#1d4ed8"/>
+<text x="650" y="758" class="tname">dim_product</text>
+<text x="650" y="780" class="key">PK</text>
+<text x="690" y="780" class="col pk">product_key</text>
+<text x="790.4" y="780" class="typ">INT</text>
+<text x="690" y="799" class="col">product_id</text>
+<text x="790.4" y="799" class="typ">INT</text>
+<text x="690" y="818" class="col">product_name</text>
+<text x="790.4" y="818" class="typ">VARCHAR(50)</text>
+<text x="690" y="837" class="col">unit</text>
+<text x="790.4" y="837" class="typ">VARCHAR(25)</text>
+<text x="690" y="856" class="col">list_price</text>
+<text x="790.4" y="856" class="typ">NUMERIC(10,2)</text>
+<text x="650" y="875" class="key">FK</text>
+<text x="690" y="875" class="col">category_key</text>
+<text x="790.4" y="875" class="typ">INT</text>
+<text x="650" y="894" class="key">FK</text>
+<text x="690" y="894" class="col">supplier_key</text>
+<text x="790.4" y="894" class="typ">INT</text>
+</g>
+<g>
+<rect x="1080" y="790" width="254.0" height="108" rx="6" fill="#ecfeff" stroke="#0e7490" stroke-width="1.5"/>
+<path d="M1080,796 a6,6 0 0 1 6,-6 h242.0 a6,6 0 0 1 6,6 v20 h-254.0 z" fill="#0e7490"/>
+<text x="1090" y="808" class="tname">dim_category</text>
+<text x="1090" y="830" class="key">PK</text>
+<text x="1130" y="830" class="col pk">category_key</text>
+<text x="1237.6" y="830" class="typ">INT</text>
+<text x="1130" y="849" class="col">category_id</text>
+<text x="1237.6" y="849" class="typ">INT</text>
+<text x="1130" y="868" class="col">category_name</text>
+<text x="1237.6" y="868" class="typ">VARCHAR(25)</text>
+<text x="1130" y="887" class="col">description</text>
+<text x="1237.6" y="887" class="typ">VARCHAR(255)</text>
+</g>
+<g>
+<rect x="330" y="850" width="246.8" height="184" rx="6" fill="#ecfeff" stroke="#0e7490" stroke-width="1.5"/>
+<path d="M330,856 a6,6 0 0 1 6,-6 h234.8 a6,6 0 0 1 6,6 v20 h-246.8 z" fill="#0e7490"/>
+<text x="340" y="868" class="tname">dim_supplier</text>
+<text x="340" y="890" class="key">PK</text>
+<text x="380" y="890" class="col pk">supplier_key</text>
+<text x="487.6" y="890" class="typ">INT</text>
+<text x="380" y="909" class="col">supplier_id</text>
+<text x="487.6" y="909" class="typ">INT</text>
+<text x="380" y="928" class="col">supplier_name</text>
+<text x="487.6" y="928" class="typ">VARCHAR(50)</text>
+<text x="380" y="947" class="col">contact_name</text>
+<text x="487.6" y="947" class="typ">VARCHAR(50)</text>
+<text x="380" y="966" class="col">address</text>
+<text x="487.6" y="966" class="typ">VARCHAR(50)</text>
+<text x="380" y="985" class="col">postal_code</text>
+<text x="487.6" y="985" class="typ">VARCHAR(10)</text>
+<text x="380" y="1004" class="col">phone</text>
+<text x="487.6" y="1004" class="typ">VARCHAR(15)</text>
+<text x="340" y="1023" class="key">FK</text>
+<text x="380" y="1023" class="col">city_key</text>
+<text x="487.6" y="1023" class="typ">INT</text>
+</g>
+<g>
+<rect x="40" y="500" width="232.4" height="89" rx="6" fill="#ecfeff" stroke="#0e7490" stroke-width="1.5"/>
+<path d="M40,506 a6,6 0 0 1 6,-6 h220.4 a6,6 0 0 1 6,6 v20 h-232.4 z" fill="#0e7490"/>
+<text x="50" y="518" class="tname">dim_city</text>
+<text x="50" y="540" class="key">PK</text>
+<text x="90" y="540" class="col pk">city_key</text>
+<text x="183.2" y="540" class="typ">INT</text>
+<text x="90" y="559" class="col">city_name</text>
+<text x="183.2" y="559" class="typ">VARCHAR(20)</text>
+<text x="50" y="578" class="key">FK</text>
+<text x="90" y="578" class="col">country_key</text>
+<text x="183.2" y="578" class="typ">INT</text>
+</g>
+<g>
+<rect x="40" y="990" width="239.6" height="70" rx="6" fill="#ecfeff" stroke="#0e7490" stroke-width="1.5"/>
+<path d="M40,996 a6,6 0 0 1 6,-6 h227.6 a6,6 0 0 1 6,6 v20 h-239.6 z" fill="#0e7490"/>
+<text x="50" y="1008" class="tname">dim_country</text>
+<text x="50" y="1030" class="key">PK</text>
+<text x="90" y="1030" class="col pk">country_key</text>
+<text x="190.4" y="1030" class="typ">INT</text>
+<text x="90" y="1049" class="col">country_name</text>
+<text x="190.4" y="1049" class="typ">VARCHAR(15)</text>
+</g>
+<rect x="20" y="1096" width="14" height="14" rx="3" fill="#b45309"/>
+<text x="40" y="1108" class="leg">faktová tabuľka</text>
+<rect x="161.0" y="1096" width="14" height="14" rx="3" fill="#1d4ed8"/>
+<text x="181.0" y="1108" class="leg">dimenzia</text>
+<rect x="250.2" y="1096" width="14" height="14" rx="3" fill="#0e7490"/>
+<text x="270.2" y="1108" class="leg">normalizovaná sub-dimenzia (snowflake)</text>
+<rect x="561.4" y="1096" width="14" height="14" rx="3" fill="#15803d"/>
+<text x="581.4" y="1108" class="leg">časová dimenzia</text>
+</svg>
