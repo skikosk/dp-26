@@ -1,0 +1,384 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2160" height="1300" viewBox="0 0 2160 1300">
+<style>
+text { font-family: Consolas, "Courier New", monospace; font-size: 12px; fill: #1f2937; }
+.tname { font-size: 14px; font-weight: bold; fill: #ffffff; }
+.key { font-size: 10px; font-weight: bold; fill: #b45309; }
+.pk { font-weight: bold; text-decoration: underline; }
+.typ { fill: #6b7280; }
+.title { font-family: "Segoe UI", Arial, sans-serif; font-size: 22px; font-weight: bold; }
+.sub { font-family: "Segoe UI", Arial, sans-serif; font-size: 13px; fill: #4b5563; }
+.leg { font-family: "Segoe UI", Arial, sans-serif; font-size: 12px; }
+.rel { stroke: #64748b; stroke-width: 1.4; fill: none; }
+</style>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="20" y="34" class="title">Pagila – dátový sklad (schéma snehovej vločky)</text>
+<text x="20" y="56" class="sub">Grain fact_rental: jeden riadok = jedna výpožička jednej kópie filmu · dim_date je role-playing dimenzia (rental_date_key aj return_date_key)</text>
+<line x1="943.7" y1="400.0" x2="940.1" y2="297.0" class="rel"/>
+<line x1="943.2" y1="386.0" x2="935.7" y2="400.3" class="rel"/>
+<line x1="943.2" y1="386.0" x2="943.7" y2="400.0" class="rel"/>
+<line x1="943.2" y1="386.0" x2="951.7" y2="399.7" class="rel"/>
+<line x1="947.4" y1="304.7" x2="933.4" y2="305.2" class="rel"/>
+<line x1="947.5" y1="309.7" x2="933.6" y2="310.2" class="rel"/>
+<line x1="800.0" y1="465.8" x2="569.6" y2="351.4" class="rel"/>
+<line x1="787.5" y1="459.5" x2="796.4" y2="472.9" class="rel"/>
+<line x1="787.5" y1="459.5" x2="800.0" y2="465.8" class="rel"/>
+<line x1="787.5" y1="459.5" x2="803.6" y2="458.6" class="rel"/>
+<line x1="579.9" y1="348.7" x2="573.7" y2="361.3" class="rel"/>
+<line x1="584.4" y1="351.0" x2="578.1" y2="363.5" class="rel"/>
+<line x1="1097.2" y1="542.8" x2="1290.0" y2="547.0" class="rel"/>
+<line x1="1111.2" y1="543.1" x2="1097.4" y2="534.8" class="rel"/>
+<line x1="1111.2" y1="543.1" x2="1097.2" y2="542.8" class="rel"/>
+<line x1="1111.2" y1="543.1" x2="1097.0" y2="550.8" class="rel"/>
+<line x1="1281.8" y1="553.8" x2="1282.2" y2="539.8" class="rel"/>
+<line x1="1276.8" y1="553.7" x2="1277.2" y2="539.7" class="rel"/>
+<line x1="946.5" y1="679.0" x2="944.0" y2="850.0" class="rel"/>
+<line x1="946.3" y1="693.0" x2="954.5" y2="679.1" class="rel"/>
+<line x1="946.3" y1="693.0" x2="946.5" y2="679.0" class="rel"/>
+<line x1="946.3" y1="693.0" x2="938.5" y2="678.9" class="rel"/>
+<line x1="937.1" y1="841.9" x2="951.1" y2="842.1" class="rel"/>
+<line x1="937.2" y1="836.9" x2="951.2" y2="837.1" class="rel"/>
+<line x1="800.0" y1="604.1" x2="712.8" y2="642.0" class="rel"/>
+<line x1="787.2" y1="609.7" x2="803.2" y2="611.4" class="rel"/>
+<line x1="787.2" y1="609.7" x2="800.0" y2="604.1" class="rel"/>
+<line x1="787.2" y1="609.7" x2="796.8" y2="596.8" class="rel"/>
+<line x1="717.3" y1="632.4" x2="722.9" y2="645.3" class="rel"/>
+<line x1="721.9" y1="630.4" x2="727.5" y2="643.3" class="rel"/>
+<line x1="1432.9" y1="420.0" x2="1438.1" y2="289.0" class="rel"/>
+<line x1="1433.5" y1="406.0" x2="1424.9" y2="419.7" class="rel"/>
+<line x1="1433.5" y1="406.0" x2="1432.9" y2="420.0" class="rel"/>
+<line x1="1433.5" y1="406.0" x2="1440.9" y2="420.3" class="rel"/>
+<line x1="1444.7" y1="297.3" x2="1430.7" y2="296.7" class="rel"/>
+<line x1="1444.5" y1="302.3" x2="1430.5" y2="301.7" class="rel"/>
+<line x1="1755.5" y1="300.0" x2="1565.6" y2="444.9" class="rel"/>
+<line x1="1744.4" y1="308.5" x2="1760.4" y2="306.4" class="rel"/>
+<line x1="1744.4" y1="308.5" x2="1755.5" y2="300.0" class="rel"/>
+<line x1="1744.4" y1="308.5" x2="1750.7" y2="293.6" class="rel"/>
+<line x1="1567.7" y1="434.5" x2="1576.2" y2="445.6" class="rel"/>
+<line x1="1571.7" y1="431.4" x2="1580.2" y2="442.6" class="rel"/>
+<line x1="1817.9" y1="230.0" x2="1847.1" y2="168.0" class="rel"/>
+<line x1="1823.9" y1="217.3" x2="1810.7" y2="226.6" class="rel"/>
+<line x1="1823.9" y1="217.3" x2="1817.9" y2="230.0" class="rel"/>
+<line x1="1823.9" y1="217.3" x2="1825.1" y2="233.4" class="rel"/>
+<line x1="1850.1" y1="178.2" x2="1837.4" y2="172.3" class="rel"/>
+<line x1="1847.9" y1="182.7" x2="1835.3" y2="176.8" class="rel"/>
+<line x1="1748.1" y1="720.0" x2="1565.6" y2="623.1" class="rel"/>
+<line x1="1735.7" y1="713.4" x2="1744.3" y2="727.1" class="rel"/>
+<line x1="1735.7" y1="713.4" x2="1748.1" y2="720.0" class="rel"/>
+<line x1="1735.7" y1="713.4" x2="1751.8" y2="712.9" class="rel"/>
+<line x1="1575.9" y1="620.7" x2="1569.4" y2="633.1" class="rel"/>
+<line x1="1580.4" y1="623.1" x2="1573.8" y2="635.4" class="rel"/>
+<line x1="1826.2" y1="790.0" x2="1864.3" y2="900.0" class="rel"/>
+<line x1="1830.7" y1="803.2" x2="1833.7" y2="787.4" class="rel"/>
+<line x1="1830.7" y1="803.2" x2="1826.2" y2="790.0" class="rel"/>
+<line x1="1830.7" y1="803.2" x2="1818.6" y2="792.6" class="rel"/>
+<line x1="1855.1" y1="894.7" x2="1868.3" y2="890.1" class="rel"/>
+<line x1="1853.5" y1="890.0" x2="1866.7" y2="885.4" class="rel"/>
+<line x1="830.0" y1="869.7" x2="670.2" y2="767.0" class="rel"/>
+<line x1="818.2" y1="862.1" x2="825.7" y2="876.4" class="rel"/>
+<line x1="818.2" y1="862.1" x2="830.0" y2="869.7" class="rel"/>
+<line x1="818.2" y1="862.1" x2="834.3" y2="862.9" class="rel"/>
+<line x1="680.7" y1="765.4" x2="673.2" y2="777.2" class="rel"/>
+<line x1="685.0" y1="768.1" x2="677.4" y2="779.9" class="rel"/>
+<line x1="365.4" y1="384.0" x2="240.6" y2="520.0" class="rel"/>
+<line x1="355.9" y1="394.3" x2="371.3" y2="389.4" class="rel"/>
+<line x1="355.9" y1="394.3" x2="365.4" y2="384.0" class="rel"/>
+<line x1="355.9" y1="394.3" x2="359.5" y2="378.6" class="rel"/>
+<line x1="240.9" y1="509.4" x2="251.2" y2="518.8" class="rel"/>
+<line x1="244.2" y1="505.7" x2="254.6" y2="515.2" class="rel"/>
+<line x1="430.0" y1="672.3" x2="272.4" y2="637.6" class="rel"/>
+<line x1="416.3" y1="669.3" x2="428.3" y2="680.2" class="rel"/>
+<line x1="416.3" y1="669.3" x2="430.0" y2="672.3" class="rel"/>
+<line x1="416.3" y1="669.3" x2="431.7" y2="664.5" class="rel"/>
+<line x1="281.7" y1="632.5" x2="278.7" y2="646.2" class="rel"/>
+<line x1="286.6" y1="633.6" x2="283.6" y2="647.2" class="rel"/>
+<line x1="156.2" y1="704.0" x2="156.2" y2="880.0" class="rel"/>
+<line x1="156.2" y1="718.0" x2="164.2" y2="704.0" class="rel"/>
+<line x1="156.2" y1="718.0" x2="156.2" y2="704.0" class="rel"/>
+<line x1="156.2" y1="718.0" x2="148.2" y2="704.0" class="rel"/>
+<line x1="149.2" y1="872.0" x2="163.2" y2="872.0" class="rel"/>
+<line x1="149.2" y1="867.0" x2="163.2" y2="867.0" class="rel"/>
+<line x1="156.2" y1="988.0" x2="156.2" y2="1080.0" class="rel"/>
+<line x1="156.2" y1="1002.0" x2="164.2" y2="988.0" class="rel"/>
+<line x1="156.2" y1="1002.0" x2="156.2" y2="988.0" class="rel"/>
+<line x1="156.2" y1="1002.0" x2="148.2" y2="988.0" class="rel"/>
+<line x1="149.2" y1="1072.0" x2="163.2" y2="1072.0" class="rel"/>
+<line x1="149.2" y1="1067.0" x2="163.2" y2="1067.0" class="rel"/>
+<g>
+<rect x="800" y="400" width="297.2" height="279" rx="6" fill="#fff7ed" stroke="#b45309" stroke-width="1.5"/>
+<path d="M800,406 a6,6 0 0 1 6,-6 h285.2 a6,6 0 0 1 6,6 v20 h-297.2 z" fill="#b45309"/>
+<text x="810" y="418" class="tname">fact_rental</text>
+<text x="810" y="440" class="key">PK</text>
+<text x="850" y="440" class="col pk">rental_key</text>
+<text x="1000.8" y="440" class="typ">BIGINT</text>
+<text x="850" y="459" class="col">rental_id</text>
+<text x="1000.8" y="459" class="typ">INT</text>
+<text x="850" y="478" class="col">inventory_id</text>
+<text x="1000.8" y="478" class="typ">INT</text>
+<text x="810" y="497" class="key">FK</text>
+<text x="850" y="497" class="col">rental_date_key</text>
+<text x="1000.8" y="497" class="typ">INT</text>
+<text x="810" y="516" class="key">FK</text>
+<text x="850" y="516" class="col">return_date_key</text>
+<text x="1000.8" y="516" class="typ">INT</text>
+<text x="810" y="535" class="key">FK</text>
+<text x="850" y="535" class="col">customer_key</text>
+<text x="1000.8" y="535" class="typ">INT</text>
+<text x="810" y="554" class="key">FK</text>
+<text x="850" y="554" class="col">film_key</text>
+<text x="1000.8" y="554" class="typ">INT</text>
+<text x="810" y="573" class="key">FK</text>
+<text x="850" y="573" class="col">staff_key</text>
+<text x="1000.8" y="573" class="typ">INT</text>
+<text x="810" y="592" class="key">FK</text>
+<text x="850" y="592" class="col">store_key</text>
+<text x="1000.8" y="592" class="typ">INT</text>
+<text x="850" y="611" class="col">rental_amount</text>
+<text x="1000.8" y="611" class="typ">NUMERIC(5,2)</text>
+<text x="850" y="630" class="col">planned_rental_days</text>
+<text x="1000.8" y="630" class="typ">SMALLINT</text>
+<text x="850" y="649" class="col">actual_rental_days</text>
+<text x="1000.8" y="649" class="typ">SMALLINT</text>
+<text x="850" y="668" class="col">rental_count</text>
+<text x="1000.8" y="668" class="typ">SMALLINT</text>
+</g>
+<g>
+<rect x="820" y="75" width="232.4" height="222" rx="6" fill="#f0fdf4" stroke="#15803d" stroke-width="1.5"/>
+<path d="M820,81 a6,6 0 0 1 6,-6 h220.4 a6,6 0 0 1 6,6 v20 h-232.4 z" fill="#15803d"/>
+<text x="830" y="93" class="tname">dim_date</text>
+<text x="830" y="115" class="key">PK</text>
+<text x="870" y="115" class="col pk">date_key</text>
+<text x="963.2" y="115" class="typ">INT</text>
+<text x="870" y="134" class="col">full_date</text>
+<text x="963.2" y="134" class="typ">DATE</text>
+<text x="870" y="153" class="col">day</text>
+<text x="963.2" y="153" class="typ">SMALLINT</text>
+<text x="870" y="172" class="col">month</text>
+<text x="963.2" y="172" class="typ">SMALLINT</text>
+<text x="870" y="191" class="col">month_name</text>
+<text x="963.2" y="191" class="typ">VARCHAR(15)</text>
+<text x="870" y="210" class="col">quarter</text>
+<text x="963.2" y="210" class="typ">SMALLINT</text>
+<text x="870" y="229" class="col">year</text>
+<text x="963.2" y="229" class="typ">SMALLINT</text>
+<text x="870" y="248" class="col">day_of_week</text>
+<text x="963.2" y="248" class="typ">SMALLINT</text>
+<text x="870" y="267" class="col">day_name</text>
+<text x="963.2" y="267" class="typ">VARCHAR(15)</text>
+<text x="870" y="286" class="col">is_weekend</text>
+<text x="963.2" y="286" class="typ">BOOLEAN</text>
+</g>
+<g>
+<rect x="1290" y="420" width="275.6" height="260" rx="6" fill="#eff6ff" stroke="#1d4ed8" stroke-width="1.5"/>
+<path d="M1290,426 a6,6 0 0 1 6,-6 h263.6 a6,6 0 0 1 6,6 v20 h-275.6 z" fill="#1d4ed8"/>
+<text x="1300" y="438" class="tname">dim_film</text>
+<text x="1300" y="460" class="key">PK</text>
+<text x="1340" y="460" class="col pk">film_key</text>
+<text x="1469.2" y="460" class="typ">INT</text>
+<text x="1340" y="479" class="col">film_id</text>
+<text x="1469.2" y="479" class="typ">INT</text>
+<text x="1340" y="498" class="col">title</text>
+<text x="1469.2" y="498" class="typ">VARCHAR(255)</text>
+<text x="1340" y="517" class="col">description</text>
+<text x="1469.2" y="517" class="typ">TEXT</text>
+<text x="1340" y="536" class="col">release_year</text>
+<text x="1469.2" y="536" class="typ">SMALLINT</text>
+<text x="1340" y="555" class="col">rental_duration</text>
+<text x="1469.2" y="555" class="typ">SMALLINT</text>
+<text x="1340" y="574" class="col">rental_rate</text>
+<text x="1469.2" y="574" class="typ">NUMERIC(4,2)</text>
+<text x="1340" y="593" class="col">length</text>
+<text x="1469.2" y="593" class="typ">SMALLINT</text>
+<text x="1340" y="612" class="col">replacement_cost</text>
+<text x="1469.2" y="612" class="typ">NUMERIC(5,2)</text>
+<text x="1340" y="631" class="col">rating</text>
+<text x="1469.2" y="631" class="typ">VARCHAR(10)</text>
+<text x="1340" y="650" class="col">special_features</text>
+<text x="1469.2" y="650" class="typ">TEXT</text>
+<text x="1300" y="669" class="key">FK</text>
+<text x="1340" y="669" class="col">language_key</text>
+<text x="1469.2" y="669" class="typ">INT</text>
+</g>
+<g>
+<rect x="1320" y="200" width="239.6" height="89" rx="6" fill="#ecfeff" stroke="#0e7490" stroke-width="1.5"/>
+<path d="M1320,206 a6,6 0 0 1 6,-6 h227.6 a6,6 0 0 1 6,6 v20 h-239.6 z" fill="#0e7490"/>
+<text x="1330" y="218" class="tname">dim_language</text>
+<text x="1330" y="240" class="key">PK</text>
+<text x="1370" y="240" class="col pk">language_key</text>
+<text x="1470.4" y="240" class="typ">INT</text>
+<text x="1370" y="259" class="col">language_id</text>
+<text x="1470.4" y="259" class="typ">INT</text>
+<text x="1370" y="278" class="col">name</text>
+<text x="1470.4" y="278" class="typ">VARCHAR(20)</text>
+</g>
+<g>
+<rect x="1720" y="230" width="162.8" height="70" rx="6" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.5"/>
+<path d="M1720,236 a6,6 0 0 1 6,-6 h150.8 a6,6 0 0 1 6,6 v20 h-162.8 z" fill="#7c3aed"/>
+<text x="1730" y="248" class="tname">bridge_film_actor</text>
+<text x="1730" y="270" class="key">PK,FK</text>
+<text x="1770" y="270" class="col pk">film_key</text>
+<text x="1848.8" y="270" class="typ">INT</text>
+<text x="1730" y="289" class="key">PK,FK</text>
+<text x="1770" y="289" class="col pk">actor_key</text>
+<text x="1848.8" y="289" class="typ">INT</text>
+</g>
+<g>
+<rect x="1760" y="60" width="225.2" height="108" rx="6" fill="#eff6ff" stroke="#1d4ed8" stroke-width="1.5"/>
+<path d="M1760,66 a6,6 0 0 1 6,-6 h213.2 a6,6 0 0 1 6,6 v20 h-225.2 z" fill="#1d4ed8"/>
+<text x="1770" y="78" class="tname">dim_actor</text>
+<text x="1770" y="100" class="key">PK</text>
+<text x="1810" y="100" class="col pk">actor_key</text>
+<text x="1896.0" y="100" class="typ">INT</text>
+<text x="1810" y="119" class="col">actor_id</text>
+<text x="1896.0" y="119" class="typ">INT</text>
+<text x="1810" y="138" class="col">first_name</text>
+<text x="1896.0" y="138" class="typ">VARCHAR(45)</text>
+<text x="1810" y="157" class="col">last_name</text>
+<text x="1896.0" y="157" class="typ">VARCHAR(45)</text>
+</g>
+<g>
+<rect x="1720" y="720" width="188.0" height="70" rx="6" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.5"/>
+<path d="M1720,726 a6,6 0 0 1 6,-6 h176.0 a6,6 0 0 1 6,6 v20 h-188.0 z" fill="#7c3aed"/>
+<text x="1730" y="738" class="tname">bridge_film_category</text>
+<text x="1730" y="760" class="key">PK,FK</text>
+<text x="1770" y="760" class="col pk">film_key</text>
+<text x="1870.4" y="760" class="typ">INT</text>
+<text x="1730" y="779" class="key">PK,FK</text>
+<text x="1770" y="779" class="col pk">category_key</text>
+<text x="1870.4" y="779" class="typ">INT</text>
+</g>
+<g>
+<rect x="1760" y="900" width="239.6" height="89" rx="6" fill="#eff6ff" stroke="#1d4ed8" stroke-width="1.5"/>
+<path d="M1760,906 a6,6 0 0 1 6,-6 h227.6 a6,6 0 0 1 6,6 v20 h-239.6 z" fill="#1d4ed8"/>
+<text x="1770" y="918" class="tname">dim_category</text>
+<text x="1770" y="940" class="key">PK</text>
+<text x="1810" y="940" class="col pk">category_key</text>
+<text x="1910.4" y="940" class="typ">INT</text>
+<text x="1810" y="959" class="col">category_id</text>
+<text x="1910.4" y="959" class="typ">INT</text>
+<text x="1810" y="978" class="col">name</text>
+<text x="1910.4" y="978" class="typ">VARCHAR(25)</text>
+</g>
+<g>
+<rect x="330" y="200" width="239.6" height="184" rx="6" fill="#eff6ff" stroke="#1d4ed8" stroke-width="1.5"/>
+<path d="M330,206 a6,6 0 0 1 6,-6 h227.6 a6,6 0 0 1 6,6 v20 h-239.6 z" fill="#1d4ed8"/>
+<text x="340" y="218" class="tname">dim_customer</text>
+<text x="340" y="240" class="key">PK</text>
+<text x="380" y="240" class="col pk">customer_key</text>
+<text x="480.4" y="240" class="typ">INT</text>
+<text x="380" y="259" class="col">customer_id</text>
+<text x="480.4" y="259" class="typ">INT</text>
+<text x="380" y="278" class="col">first_name</text>
+<text x="480.4" y="278" class="typ">VARCHAR(45)</text>
+<text x="380" y="297" class="col">last_name</text>
+<text x="480.4" y="297" class="typ">VARCHAR(45)</text>
+<text x="380" y="316" class="col">email</text>
+<text x="480.4" y="316" class="typ">VARCHAR(50)</text>
+<text x="380" y="335" class="col">active</text>
+<text x="480.4" y="335" class="typ">BOOLEAN</text>
+<text x="380" y="354" class="col">created_at</text>
+<text x="480.4" y="354" class="typ">DATE</text>
+<text x="340" y="373" class="key">FK</text>
+<text x="380" y="373" class="col">address_key</text>
+<text x="480.4" y="373" class="typ">INT</text>
+</g>
+<g>
+<rect x="830" y="850" width="225.2" height="184" rx="6" fill="#eff6ff" stroke="#1d4ed8" stroke-width="1.5"/>
+<path d="M830,856 a6,6 0 0 1 6,-6 h213.2 a6,6 0 0 1 6,6 v20 h-225.2 z" fill="#1d4ed8"/>
+<text x="840" y="868" class="tname">dim_staff</text>
+<text x="840" y="890" class="key">PK</text>
+<text x="880" y="890" class="col pk">staff_key</text>
+<text x="966.0" y="890" class="typ">INT</text>
+<text x="880" y="909" class="col">staff_id</text>
+<text x="966.0" y="909" class="typ">INT</text>
+<text x="880" y="928" class="col">first_name</text>
+<text x="966.0" y="928" class="typ">VARCHAR(45)</text>
+<text x="880" y="947" class="col">last_name</text>
+<text x="966.0" y="947" class="typ">VARCHAR(45)</text>
+<text x="880" y="966" class="col">email</text>
+<text x="966.0" y="966" class="typ">VARCHAR(50)</text>
+<text x="880" y="985" class="col">username</text>
+<text x="966.0" y="985" class="typ">VARCHAR(16)</text>
+<text x="880" y="1004" class="col">active</text>
+<text x="966.0" y="1004" class="typ">BOOLEAN</text>
+<text x="840" y="1023" class="key">FK</text>
+<text x="880" y="1023" class="col">store_key</text>
+<text x="966.0" y="1023" class="typ">INT</text>
+</g>
+<g>
+<rect x="430" y="640" width="282.8" height="127" rx="6" fill="#eff6ff" stroke="#1d4ed8" stroke-width="1.5"/>
+<path d="M430,646 a6,6 0 0 1 6,-6 h270.8 a6,6 0 0 1 6,6 v20 h-282.8 z" fill="#1d4ed8"/>
+<text x="440" y="658" class="tname">dim_store</text>
+<text x="440" y="680" class="key">PK</text>
+<text x="480" y="680" class="col pk">store_key</text>
+<text x="623.6" y="680" class="typ">INT</text>
+<text x="480" y="699" class="col">store_id</text>
+<text x="623.6" y="699" class="typ">INT</text>
+<text x="480" y="718" class="col">manager_first_name</text>
+<text x="623.6" y="718" class="typ">VARCHAR(45)</text>
+<text x="480" y="737" class="col">manager_last_name</text>
+<text x="623.6" y="737" class="typ">VARCHAR(45)</text>
+<text x="440" y="756" class="key">FK</text>
+<text x="480" y="756" class="col">address_key</text>
+<text x="623.6" y="756" class="typ">INT</text>
+</g>
+<g>
+<rect x="40" y="520" width="232.4" height="184" rx="6" fill="#ecfeff" stroke="#0e7490" stroke-width="1.5"/>
+<path d="M40,526 a6,6 0 0 1 6,-6 h220.4 a6,6 0 0 1 6,6 v20 h-232.4 z" fill="#0e7490"/>
+<text x="50" y="538" class="tname">dim_address</text>
+<text x="50" y="560" class="key">PK</text>
+<text x="90" y="560" class="col pk">address_key</text>
+<text x="183.2" y="560" class="typ">INT</text>
+<text x="90" y="579" class="col">address_id</text>
+<text x="183.2" y="579" class="typ">INT</text>
+<text x="90" y="598" class="col">address</text>
+<text x="183.2" y="598" class="typ">VARCHAR(50)</text>
+<text x="90" y="617" class="col">address2</text>
+<text x="183.2" y="617" class="typ">VARCHAR(50)</text>
+<text x="90" y="636" class="col">district</text>
+<text x="183.2" y="636" class="typ">VARCHAR(20)</text>
+<text x="90" y="655" class="col">postal_code</text>
+<text x="183.2" y="655" class="typ">VARCHAR(10)</text>
+<text x="90" y="674" class="col">phone</text>
+<text x="183.2" y="674" class="typ">VARCHAR(20)</text>
+<text x="50" y="693" class="key">FK</text>
+<text x="90" y="693" class="col">city_key</text>
+<text x="183.2" y="693" class="typ">INT</text>
+</g>
+<g>
+<rect x="40" y="880" width="232.4" height="108" rx="6" fill="#ecfeff" stroke="#0e7490" stroke-width="1.5"/>
+<path d="M40,886 a6,6 0 0 1 6,-6 h220.4 a6,6 0 0 1 6,6 v20 h-232.4 z" fill="#0e7490"/>
+<text x="50" y="898" class="tname">dim_city</text>
+<text x="50" y="920" class="key">PK</text>
+<text x="90" y="920" class="col pk">city_key</text>
+<text x="183.2" y="920" class="typ">INT</text>
+<text x="90" y="939" class="col">city_id</text>
+<text x="183.2" y="939" class="typ">INT</text>
+<text x="90" y="958" class="col">city</text>
+<text x="183.2" y="958" class="typ">VARCHAR(50)</text>
+<text x="50" y="977" class="key">FK</text>
+<text x="90" y="977" class="col">country_key</text>
+<text x="183.2" y="977" class="typ">INT</text>
+</g>
+<g>
+<rect x="40" y="1080" width="232.4" height="89" rx="6" fill="#ecfeff" stroke="#0e7490" stroke-width="1.5"/>
+<path d="M40,1086 a6,6 0 0 1 6,-6 h220.4 a6,6 0 0 1 6,6 v20 h-232.4 z" fill="#0e7490"/>
+<text x="50" y="1098" class="tname">dim_country</text>
+<text x="50" y="1120" class="key">PK</text>
+<text x="90" y="1120" class="col pk">country_key</text>
+<text x="183.2" y="1120" class="typ">INT</text>
+<text x="90" y="1139" class="col">country_id</text>
+<text x="183.2" y="1139" class="typ">INT</text>
+<text x="90" y="1158" class="col">country</text>
+<text x="183.2" y="1158" class="typ">VARCHAR(50)</text>
+</g>
+<rect x="20" y="1266" width="14" height="14" rx="3" fill="#b45309"/>
+<text x="40" y="1278" class="leg">faktová tabuľka</text>
+<rect x="161.0" y="1266" width="14" height="14" rx="3" fill="#1d4ed8"/>
+<text x="181.0" y="1278" class="leg">dimenzia</text>
+<rect x="250.2" y="1266" width="14" height="14" rx="3" fill="#0e7490"/>
+<text x="270.2" y="1278" class="leg">normalizovaná sub-dimenzia (snowflake)</text>
+<rect x="561.4" y="1266" width="14" height="14" rx="3" fill="#15803d"/>
+<text x="581.4" y="1278" class="leg">časová dimenzia</text>
+<rect x="702.4" y="1266" width="14" height="14" rx="3" fill="#7c3aed"/>
+<text x="722.4" y="1278" class="leg">bridge tabuľka</text>
+</svg>
